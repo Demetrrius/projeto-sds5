@@ -30,3 +30,16 @@ html, body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+h3{
+    font-family: Courier, monospace;
+    color: rgba(46, 66, 248, 0.685);
+    font-weight: bold;
+    font-weight: 900;   
+}
+h5{
+    font-family: Courier;
+    color: #101013af;
+    font-weight: bold;
+    text-align: center;
+   
+}
