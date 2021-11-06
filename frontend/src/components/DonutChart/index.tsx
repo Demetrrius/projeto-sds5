@@ -26,11 +26,7 @@ function DonutChart() {
             });
     }, [])
 
-    //const mockData = {
-    //    series: [477138, 499928, 444867, 220426, 473088],
-    //    labels: ['Demetrius Tobias', 'Ian de A. Tobias', 'Marisa de Abreu', 'Camilla Tobias', 'Luck Tobias']
-    //}
-
+    
     const options = {
         legend: {
             show: true
@@ -42,7 +38,7 @@ function DonutChart() {
             options={{ ...options, labels: chartData.labels }}
             series={chartData.series}
             type="donut"
-            height="240"
+            height="240"            
         />
 
     );
